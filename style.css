@@ -14,10 +14,10 @@
           .navbar {
             width: 100%;
             background-color:black;
-            overflow: auto;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+            padding: 5px;
           }
           
           .navbar a {
@@ -29,5 +29,23 @@
           }
           
           .navbar a:hover {
-            background-color: #000;
+            background-color: grey;
+          }
+          .about{
+            text-align: center;
+            background-color: cornsilk;
+
+          }
+          .info{
+            text-align: center;
+          }
+          .review{
+            padding: 5px 5px;
+            border-radius: 5px;
+            border: none;
+            height: 40px;
+            width: 40px;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
           }
