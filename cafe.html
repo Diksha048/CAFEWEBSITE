@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFE</title>
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+          }
+          
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 100px;
+          }
+          .navbar {
+            width: 100%;
+            background-color:black;
+            overflow: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+          }
+          
+          .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .navbar a:hover {
+            background-color: #000;
+          }
+          
+          .active {
+            background-color: #04AA6D;
+          }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="#"><i class="menue"></i>Cafe menue</a> 
+        <a href="#"><i class="search"></i> Order online</a> 
+        <a href="#"><i class="about"></i> About</a> 
+        <a href="#"><i class="shop"></i>Shop</a>
+      </div>
+    <div class="container"><img src="cafeimg.jpg" height="685px" >
+        <div class="centered">WELCOME TO OUR CAFE<br/>
+            <img src="down-chevron.png" height="50px">
+        </div>
+    </div>
+</body>
+</html>
