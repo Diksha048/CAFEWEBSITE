@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>online shoping</title>
     <style>
     .navbar {
       background-color:black;
@@ -18,6 +18,7 @@
         .list{
             text-align: center;
             display: flex;
+            flex-direction: row;
           }
           .product {
             margin-bottom: 20px;
@@ -25,18 +26,21 @@
             border: 1px solid #ccc;
         }
         
-        .product img {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
         
         .product h2 {
             margin-top: 10px;
+            text-align: center;
         }
         
         .product p {
             margin-bottom: 10px;
+            text-align: center;
         }
         
         button {
@@ -45,6 +49,10 @@
             padding: 10px 20px;
             border: none;
             cursor: pointer;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 15%;
         }
         
         button:hover {
@@ -54,7 +62,7 @@
 </head>
 <body>
     <div class="navbar">
-        <a class="active" href="#"><i class="navbar"><img src="home-button (1).png" height="20px"></i>Home</a> 
+        <a class="active" href="cafe.html"><i class="navbar"><img src="home-button (1).png" height="20px"></i>Home</a> 
         <a href="#"><i class="navbar"><img src="menu.png" height="20px"></i>Menu</a>
         <a href="onlineshoping.html"><i class="navbar"><img src="carts.png" height="20px"></i> Order online</a> 
         <a href="#"><i class="navbar"><img src="search.png" height="20px"></i>About us</a> 
@@ -63,27 +71,27 @@
     </nav>
     <section class="product-list">
         <article class="product">
-            <img src="product1.jpg" alt="Product 1">
-            <h2>Product 1</h2>
-            <p>Description of Product 1</p>
+            <img src="https://www.seriouseats.com/thmb/MS_5p-UVwIHCrr5MaXonYJajP7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__06__20180613-coffee-vs-espresso-vicky-wasik-3-1500x1125-418fa2a14e7249b18040c2c34bf8569c.jpg" class="center" alt="Product 1" style="width: 20%;">
+            <h2>Espresso coffee</h2>
+            <p>Espresso is a delicious concentrated form of coffee, served in shots. </p>
             <button>Add to Cart</button>
         </article>
         <article class="product">
-            <img src="product2.jpg" alt="Product 2">
-            <h2>Product 2</h2>
-            <p>Description of Product 2</p>
+            <img src="https://majestycoffee.com/cdn/shop/articles/wet_cappuccino.jpg?v=1684054636"class="center" alt="Product 2"style="width: 20%;">
+            <h2>Cappuccino</h2>
+            <p>Our Cappuccino is a traditionally made espresso-based coffee drink prepared with steamed milk foam. </p>
             <button>Add to Cart</button>
         </article> <section class="product-list">
             <article class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h2>Product 1</h2>
-                <p>Description of Product 1</p>
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9eada0d203bfb580d801b478edd553465c7afb52"class="center" alt="Cold Brew"style="width: 20%;">
+                <h2>Cold Brew</h2>
+                <p>Our Cold Brew Coffee comes in 8 flavours- Original, Dark Roast, Cinnamon, Hazelnut, Mocha, Caramel, French Vanilla, and New Orleans.</p>
                 <button>Add to Cart</button>
             </article>
             <article class="product">
-                <img src="product2.jpg" alt="Product 2">
-                <h2>Product 2</h2>
-                <p>Description of Product 2</p>
+                <img src="https://www.javapresse.com/cdn/shop/articles/beginner_french_press_3f157cff-c2cc-40d4-8f99-16767c3699b3.jpg?v=1565202612&width=750"class="center" alt="French Press Coffee"style="width: 20%;">
+                <h2>French Press Coffee</h2>
+                <p> Crafted with borosilicate glass, stainless steel and food-safe plastics, our French Press has a minimal yet elegant design which looks great on a kitchen counter.</p>
                 <button>Add to Cart</button>
             </article>
       </div>
