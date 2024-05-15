@@ -18,6 +18,8 @@
             flex-direction: row;
             justify-content: space-evenly;
             padding: 5px;
+            position: sticky;
+            position: -webkit-sticky;
           }
           
           .navbar a {
@@ -38,6 +40,7 @@
           }
           .info{
             text-align: center;
+            color: brown;
           }
           .review{
             padding: 5px 5px;
@@ -48,4 +51,15 @@
             position: fixed;
             right: 10px;
             bottom: 10px;
+          }
+          .menu{
+            background-color: antiquewhite;
+            color: brown;
+            text-align: center;
+            position: static;
+            top: 0;
+          }
+          .list{
+            text-align: center;
+            display: flex;
           }
